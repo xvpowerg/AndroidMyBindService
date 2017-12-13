@@ -38,7 +38,7 @@ public class MyBindService extends Service {
         }
 
         public void reStart(){
-
+                Log.d("Howard","Test!");
                 reStart =true;
                 latch.countDown();
         }
